@@ -38,10 +38,10 @@ jobs:
         with:
             image: janisz/indexer:goland-2022.2.4
             registry: ghcr.io
-            options: >
+            options: |
               -v ${{ github.workspace }}/main/cache:/shared-index
               -v ${{ github.workspace }}/stackrox:/var/project 
-              -e INDEXES_CDN_URL=https://stackrox.github.io/goland-indexes/cache/project \
+              -e INDEXES_CDN_URL=https://stackrox.github.io/goland-indexes/cache/project
               -e PROJECT_ID=stackrox 
               -e COMMIT_ID=${{ steps.vars.outputs.sha }}
       - name: Setup git user, commit and push

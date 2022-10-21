@@ -36,7 +36,7 @@ jobs:
       - name: Run the build process with Docker
         uses: addnab/docker-run-action@v3
         with:
-            image: janisz/indexer:goland-2022.2.4
+            image: ghcr.io/janisz/indexer:goland-2022.2.4
             registry: ghcr.io
             options: |
               -v ${{ github.workspace }}/main/cache:/shared-index

@@ -49,6 +49,6 @@ jobs:
           git config --global user.email "roxbot@stackrox.com"
           git config --global user.name "Robot Rox"
           cd main
-          git add -a
+          git add --all .
           git commit -m "Generate index for https://github.com/stackrox/stackrox/commit/${{ steps.vars.outputs.sha }}"
           git push

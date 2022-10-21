@@ -38,6 +38,7 @@ jobs:
         with:
             image: ghcr.io/janisz/indexer:goland-2022.2.4
             registry: ghcr.io
+            run: ./entrypoint.sh
             options: |
               -v ${{ github.workspace }}/main/cache:/shared-index
               -v ${{ github.workspace }}/stackrox:/var/project 

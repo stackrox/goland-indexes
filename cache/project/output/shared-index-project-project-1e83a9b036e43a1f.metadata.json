@@ -1,0 +1,500 @@
+{
+  "metadata_version" : "7",
+  "sources" : {
+    "generated" : "2023-02-13T12:09:07Z[Etc/UTC]",
+    "os" : "linux",
+    "os_name" : "Linux 5.15.0-1031-azure",
+    "kind" : "project",
+    "name" : "project",
+    "project_id" : "stackrox"
+  },
+  "generation_statistics" : {
+    "file_index_usages" : {
+      "css.template.selectors" : 1,
+      "CssIndex" : 42,
+      "docker.compose.services" : 464,
+      "DomFileIndex" : 34,
+      "editorconfig.index.name" : 1,
+      "fileIncludes" : 1941,
+      "FrameworkDetectionIndex" : 0,
+      "go.build.tags" : 5807,
+      "go.import" : 5807,
+      "go.imported.directory.names" : 5807,
+      "go.linkname" : 5807,
+      "HashFragmentIndex" : 1922,
+      "html5.custom.attributes.index" : 1,
+      "HtmlScriptSrcIndex" : 1,
+      "HtmlTagIdIndex" : 1,
+      "http.request.completion.host" : 0,
+      "http.request.execution.environment" : 2,
+      "http.request.headers.values.index" : 0,
+      "http.request.name.index" : 0,
+      "IdIndex" : 10204,
+      "js.custom.single.entry.index" : 1971,
+      "js.implicit.elements.index" : 1,
+      "js.package.index" : 0,
+      "js.string.literal.words.index" : 1970,
+      "js.test.names" : 1892,
+      "json.file.root.values" : 610,
+      "OpenapiSpecificationContentIndexer" : 1070,
+      "RelaxSymbolIndex" : 18,
+      "SchemaTypeInheritance" : 11,
+      "sql.routine.index" : 0,
+      "sql.types.count.index" : 0,
+      "TodoIndex" : 9902,
+      "Trigram.Index" : 10214,
+      "TypeScriptExternalPathCandidates" : 2,
+      "vgo.modules" : 3,
+      "XmlNamespaces" : 14,
+      "XmlTagNames" : 11,
+      "yaml.keys.name" : 464
+    },
+    "stub_file_element_type_usages" : {
+      "CSS.file:CSS" : 42,
+      "go.FILE:go" : 5807,
+      "Language: Flow JS:FILE:Flow JS" : 11,
+      "Language: JavaScript:FILE:JavaScript" : 888,
+      "Language: TypeScript JSX:FILE:TypeScript JSX" : 643,
+      "Language: TypeScript:FILE:TypeScript" : 428,
+      "protobuf.file:protobuf" : 159,
+      "psi.file:HTML" : 1,
+      "psi.file:Makefile" : 16,
+      "psi.file:Markdown" : 46,
+      "vgo.FILE:vgo" : 3
+    }
+  },
+  "intellij" : {
+    "product_code" : "GO",
+    "version" : "2022.2.4",
+    "build" : "GO-222.4345.24",
+    "loaded_plugins" : [ {
+      "id" : "Docker",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "Git4Idea",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "HtmlTools",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "JSIntentionPowerPack",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "JavaScript",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "JavaScriptDebugger",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "Refactor-X",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "Remote Development Server",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.CloudConfig",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.completion.ml.ranking",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.configurationScript",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.copyright",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.css",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.database",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.dev",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.diagram",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.grpc",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.microservices.ui",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.platform.images",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.plugins.colorful.darcula.colorscheme",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.plugins.goland.solarized.colorscheme",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.plugins.monokai.colorscheme",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.plugins.watcher",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.searcheverywhere.ml",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.intellij.swagger",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.jetbrains.codeWithMe",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.jetbrains.gateway",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.jetbrains.gateway.terminal",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.jetbrains.performancePlugin",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.jetbrains.performancePlugin.dynamicPlugins",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.jetbrains.plugins.webDeployment",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.jetbrains.projector.libs",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.jetbrains.restClient",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.jetbrains.sh",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "com.jetbrains.space",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "hg4idea",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "idea.plugin.protoeditor",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "intellij.indexing.shared",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "intellij.indexing.shared.core",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "name.kropp.intellij.makefile",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.editorconfig.editorconfigjetbrains",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.intellij.intelliLang",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.intellij.plugins.markdown",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.jetbrains.plugins.emojipicker",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.jetbrains.plugins.github",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.jetbrains.plugins.go",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.jetbrains.plugins.go-template",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.jetbrains.plugins.go.ide",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.jetbrains.plugins.go.sharedIndexes.bundled",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.jetbrains.plugins.remote-run",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.jetbrains.plugins.terminal",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.jetbrains.plugins.textmate",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.jetbrains.plugins.wsl.fs",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "org.jetbrains.plugins.yaml",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "tanvd.grazi",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "training",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "training.git",
+      "version" : "222.4345.24"
+    }, {
+      "id" : "tslint",
+      "version" : "222.4345.24"
+    } ],
+    "disabled_plugins" : [ ]
+  },
+  "indexes" : {
+    "weak_hash" : "357e0a2acd73",
+    "os" : [ "linux", "mac", "windows" ],
+    "base_versions" : {
+      "hashes_algorithm_version" : "4",
+      "hashes_enumerator_version" : "37259",
+      "inverted_index_version" : "0",
+      "metadata_version" : "7",
+      "persistent_enumerator_version" : "37259",
+      "product_version" : "2022.2",
+      "shared_indexes_format" : "6",
+      "use_btree" : "true",
+      "vfs_version" : "52027"
+    },
+    "file_index_versions" : {
+      "css.template.selectors" : {
+        "version" : "33:0",
+        "needs_forward_index" : true
+      },
+      "CssIndex" : {
+        "version" : "34:0",
+        "needs_forward_index" : true
+      },
+      "docker.compose.services" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "DomFileIndex" : {
+        "version" : "0:0",
+        "needs_forward_index" : true
+      },
+      "editorconfig.index.name" : {
+        "version" : "5:0",
+        "needs_forward_index" : true
+      },
+      "fileIncludes" : {
+        "version" : "6:0",
+        "needs_forward_index" : true
+      },
+      "FrameworkDetectionIndex" : {
+        "version" : "65536:0",
+        "needs_forward_index" : true
+      },
+      "go.build.tags" : {
+        "version" : "8:0",
+        "needs_forward_index" : true
+      },
+      "go.import" : {
+        "version" : "8:0",
+        "needs_forward_index" : true
+      },
+      "go.imported.directory.names" : {
+        "version" : "8:0",
+        "needs_forward_index" : true
+      },
+      "go.linkname" : {
+        "version" : "8:0",
+        "needs_forward_index" : true
+      },
+      "HashFragmentIndex" : {
+        "version" : "19111503:0",
+        "needs_forward_index" : true
+      },
+      "html5.custom.attributes.index" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "HtmlScriptSrcIndex" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "HtmlTagIdIndex" : {
+        "version" : "3:0",
+        "needs_forward_index" : true
+      },
+      "http.request.completion.host" : {
+        "version" : "5:0",
+        "needs_forward_index" : true
+      },
+      "http.request.execution.environment" : {
+        "version" : "3:0",
+        "needs_forward_index" : true
+      },
+      "http.request.headers.values.index" : {
+        "version" : "4:0",
+        "needs_forward_index" : true
+      },
+      "http.request.name.index" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "IdIndex" : {
+        "version" : "22:0",
+        "needs_forward_index" : false
+      },
+      "js.custom.single.entry.index" : {
+        "version" : "-549564761:0",
+        "needs_forward_index" : true
+      },
+      "js.implicit.elements.index" : {
+        "version" : "426794727:0",
+        "needs_forward_index" : true
+      },
+      "js.package.index" : {
+        "version" : "12:0",
+        "needs_forward_index" : true
+      },
+      "js.string.literal.words.index" : {
+        "version" : "4:0",
+        "needs_forward_index" : true
+      },
+      "js.test.names" : {
+        "version" : "22:0",
+        "needs_forward_index" : true
+      },
+      "json.file.root.values" : {
+        "version" : "5:0",
+        "needs_forward_index" : true
+      },
+      "OpenapiSpecificationContentIndexer" : {
+        "version" : "11:0",
+        "needs_forward_index" : true
+      },
+      "RelaxSymbolIndex" : {
+        "version" : "0:0",
+        "needs_forward_index" : true
+      },
+      "SchemaTypeInheritance" : {
+        "version" : "2:0",
+        "needs_forward_index" : true
+      },
+      "sql.routine.index" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "sql.types.count.index" : {
+        "version" : "0:0",
+        "needs_forward_index" : true
+      },
+      "TodoIndex" : {
+        "version" : "13:0",
+        "needs_forward_index" : true
+      },
+      "Trigram.Index" : {
+        "version" : "3:0",
+        "needs_forward_index" : false
+      },
+      "TypeScriptExternalPathCandidates" : {
+        "version" : "0:0",
+        "needs_forward_index" : true
+      },
+      "vgo.modules" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "XmlNamespaces" : {
+        "version" : "8:0",
+        "needs_forward_index" : true
+      },
+      "XmlTagNames" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      },
+      "yaml.keys.name" : {
+        "version" : "1:0",
+        "needs_forward_index" : true
+      }
+    },
+    "stub_index_versions" : {
+      "amd.baseUrl.index" : "46:2",
+      "amd.requirePaths.index" : "46:2",
+      "Css.ampersand.selector" : "46:2",
+      "Css.attr" : "46:2",
+      "Css.class" : "46:2",
+      "Css.custom.mixin" : "46:2",
+      "Css.custom.property" : "46:2",
+      "Css.id" : "46:2",
+      "dom.elementClass" : "46:0",
+      "dom.namespaceKey" : "46:1",
+      "es6.assignment.index" : "46:2",
+      "es6.exported.index" : "46:2",
+      "go.all.name" : "46:78",
+      "go.all.private.name" : "46:78",
+      "go.function" : "46:81",
+      "go.method" : "46:80",
+      "go.method.fingerprint" : "46:79",
+      "go.method.spec.inheritance" : "46:79",
+      "go.packages" : "46:80",
+      "go.spec.fingerprint" : "46:79",
+      "go.type.name" : "46:80",
+      "go.type.spec.inheritance" : "46:78",
+      "go.typeSpec.redeclared" : "46:78",
+      "js.amd.modules" : "46:2",
+      "JS.base.types.index" : "46:3",
+      "JS.class.implements" : "46:3",
+      "js.class.index2" : "46:3",
+      "JS.class.super" : "46:5",
+      "js.doc.modules" : "46:2",
+      "js.element.qualifiedName" : "46:3",
+      "js.export.default.react.component.index" : "46:2",
+      "js.exported.index" : "46:2",
+      "JS.framework.markers.index" : "46:2",
+      "js.gcl.modules" : "46:2",
+      "js.generics.index" : "46:2",
+      "JS.global.qualified.elements" : "46:3",
+      "js.global.symbol.index" : "46:2",
+      "js.imported.bindings.index" : "46:2",
+      "js.lazy.packages" : "46:3",
+      "js.local.namespace.members.index" : "46:2",
+      "js.namespace.index" : "46:2",
+      "js.nonglobal.symbol.index" : "46:2",
+      "js.qualified.shortName" : "46:4",
+      "JS.subclass.stub.index" : "46:2",
+      "js.symbol.index2" : "46:6",
+      "js.symbol.qualified.names.index" : "46:1",
+      "js.typedef.index2" : "46:2",
+      "js.used.remote.modules" : "46:2",
+      "makefile.target.index" : "46:2",
+      "markdown.header" : "46:2",
+      "protobuf.byQualifiedName" : "46:2",
+      "protobuf.byShortName" : "46:2",
+      "sql.column.name" : "46:3",
+      "sql.names" : "46:21",
+      "sql.table.shortName" : "46:3",
+      "ts.embedded.content.index" : "46:2",
+      "ts.external.module.index" : "46:3",
+      "ts.local.classes" : "46:2"
+    },
+    "stub_file_element_type_versions" : {
+      "CSS.file:CSS" : "33",
+      "go.FILE:go" : "78",
+      "Language: ECMA Script Level 4:FILE:ECMA Script Level 4" : "1109739143",
+      "Language: ECMAScript 6:FILE:ECMAScript 6" : "1109739143",
+      "Language: Flow JS:FILE:Flow JS" : "1109739143",
+      "Language: JavaScript:FILE:JavaScript" : "1109739143",
+      "Language: TypeScript JSX:FILE:TypeScript JSX" : "1109739143",
+      "Language: TypeScript:FILE:TypeScript" : "1109739143",
+      "protobuf.file:protobuf" : "0",
+      "psi.file:GoTemplate" : "0",
+      "psi.file:HTML" : "1109739179",
+      "psi.file:Makefile" : "0",
+      "psi.file:Markdown" : "0",
+      "sql.SQL_FILE:SQL" : "30",
+      "vgo.FILE:vgo" : "1"
+    },
+    "composite_binary_stub_file_builder_versions" : {
+      "XML" : "com.intellij.util.xml.stubs.builder.DomStubBuilder:23;"
+    },
+    "hash_provider_versions" : { }
+  }
+}

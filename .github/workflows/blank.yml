@@ -5,7 +5,7 @@ name: CI
 # Controls when the workflow will run
 on:
   schedule:
-  - cron:  '0 12 * * 1'
+  - cron:  '0 12 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -36,7 +36,7 @@ jobs:
       - name: Run the build process with Docker
         uses: addnab/docker-run-action@v3
         with:
-            image: ghcr.io/janisz/indexer:goland-2022.2.4
+            image: ghcr.io/janisz/indexer:goland-2023.1.2
             registry: ghcr.io
             run: ./entrypoint.sh
             options: |

@@ -47,6 +47,8 @@ jobs:
               -e COMMIT_ID=${{ steps.vars.outputs.sha }}
       - name: Setup git user, commit and push
         run: |
+          git config --global user.email "roxbot@stackrox.com"
+          git config --global user.name "Robot Rox"
           cd main
           git add --all .
           git commit -m "Generate index for https://github.com/stackrox/stackrox/commit/${{ steps.vars.outputs.sha }}"

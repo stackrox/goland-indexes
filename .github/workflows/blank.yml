@@ -36,7 +36,7 @@ jobs:
       - name: Run the build process with Docker
         uses: addnab/docker-run-action@v3
         with:
-            image: ghcr.io/janisz/indexer:goland-2023.1.2
+            image: ghcr.io/janisz/indexer@sha256:8c6edc8d99e4166a6d12a8eb05adbd6018e4d8b0984b747ce8628deed92b0839
             registry: ghcr.io
             run: ./entrypoint.sh
             options: |
